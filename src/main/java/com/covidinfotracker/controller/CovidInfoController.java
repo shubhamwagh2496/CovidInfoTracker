@@ -65,5 +65,9 @@ public class CovidInfoController {
 
         return countryDetailsService.getCountryDetailsDataByName(name);
     }
+    public void newMethod()
+    {
+        System.out.println("git");
+    }
 
 }
